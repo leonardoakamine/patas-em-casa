@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Seja um lar temporário | Patas em Casa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+        <source srcset="img/logo.webp" type="image/webp">
+
+        <img src="img/logo.jpg"
+        alt="Logo da ONG Patas em Casa">
+        </picture>
+        <a href="index.html">Patas em Casa</a>
+
+        <p><strong>Telefone:</strong> 00 00000-0000</p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">A Patas em Casa</a></li>
+                <li><a href="projetos.html">Conheça nossos projetos</a></li>
+                <li><a href="cadastro.html">Seja um lar temporário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Você também pode ser um lar temporário</h1>
+
+        <section>
+            
+            <h2>Dúvidas mais frequentes</h2>
+
+                <h3>"Como ser um lar temporário?"</h3>
+
+                <p>Primeiro de tudo, é necessário fazer um cadastro. Esse cadastro pode ser feito aqui mesmo no site. Todas as suas informações são confidenciais e são tratadas com todas as diretrizes cabíveis de segurança da informação. Compartilhamos suas infomrações de cadastro com as organizações parceiras apeans com sua aprovação.</p>
+                
+                <h3>"Por quanto tempo fico com o animalzinho?"</h3>
+
+                <p>Tudo depende da sua disponibilidade e do tempo que levamos para encontrar um lar permanente. Algumas famílias ficam com os pets em casa por alguns dias, outros por algumas semanas e, em alguns casos, por alguns meses. Durante todo este tempo, buscamos continuamente lares permanentes para os bichinhos, mas a espera pode ser diferente para cada um.</p>
+
+                <h3>"E se minha situação mudar?"</h3>
+
+                <p>Você pode solicitar a pausa na sua inscrição como lar temporário ou até mesmo solicitar o cancelamento a qualquer momento. Em algumas horas, seu status será alterado em nosso sistema. Caso você já esteja hospedando um animalzinho e sua situação mudar, entre em contato conosco e em até dois dias, o animalzinho será buscado ou pediremos que o leve para um abrigo próximo. Esse tempo é necessário para entrarmos em contato com os abrigos e fazer todos os arranjos logísticos.</p>
+            
+                <h3>"Quanto custa ser um lar temporário?"</h3>
+
+                <p>O cadastro não tem custo nenhum. Os custos envolvidos para o lar temporário são aqueles envolvidos no cuidado direto do animal: ração, transporte, brinquedos, higiene, acessórios e visitas ao veterinário, se necessárias durante o período de hospedagem.</p>
+
+                <p>Outras dúvidas que não apareceram aqui podem ser tiradas conosco por WhatsApp pelo número: <a href="tel:00000000000">11 00000-0000</a></p>
+
+        </section>
+        
+        <section>
+
+            <h2>Cadastro</h2>
+
+            <form>
+
+                <fieldset>
+                    <legend>Informações de cadastro</legend>
+
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade" required>
+
+                    <label for="cpf">Insira seu CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required
+                        pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00" title="000.000.000-00">
+
+                    <label for="CEP">Insira seu CEP:</label>
+                    <input type="text" id="CEP" name="CEP" required
+                        pattern="[0-9]{5}-[0-9]{3}" placeholder="00000-000" title="00000-000">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required
+                        pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"  placeholder="(00) 00000-0000" title="(00) 00000-0000">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informações do lar</legend>
+
+                    <label for="quantidade-pets">Quantos pets você já tem em casa?</label>
+                    <input type="number" id="quantidade-pets" name="quantidade-pets" required>
+
+                    <label for="tempo-disponivel">Qual é o período máximo pelo qual gostaria de hospedar?</label>
+                    <input type="text" id="tempo-disponivel" name="tempo-disponivel" required>                       
+                </fieldset>
+
+                <button type="submit">Enviar formulário de cadastro</button>
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+    <p><strong>Patas em Casa</strong></p>
+
+    <address>
+        <p><a href="mailto:e-mailexemplo@patasemcasa.com.br">e-mailexemplo@patasemcasa.com.br</a></p>
+        <p><a href="tel:00000000000">00 00000-0000</a></p>
+        <p>Região metropolitana de São Paulo</p>
+    </address>
+
+    <p>&copy; 2026 Patas em Casa. Todos os direitos reservados</p>
+</footer>
+</body>
+</html>
